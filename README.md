@@ -4,11 +4,11 @@
 
 Submitted by: **Subham Bhattacharya**
 
-Time spent: **X** hours spent in total
+Time spent: **5** hours spent in total
 
 ## Summary
 
-**Name of your app** is an android app that **fill in description (Example: "An app that displays a scrollable list of characters from the Marvel API")**
+**PokeDex** is an Android app that **An app that displays a scrollable list of characters from the Pokemon API**
 
 If I had to describe this project in three (3) emojis, they would be: **emojis here**
 
@@ -18,14 +18,14 @@ If I had to describe this project in three (3) emojis, they would be: **emojis h
 
 The following REQUIRED features are completed:
 
-- [ ] Make an API call to an API of your choice using AsyncHTTPClient
-- [ ] Implement a RecyclerView to display a list of entries from the API
-- [ ] Display at least three (3) pieces of data for each RecyclerView item
+- [x] Make an API call to an API of your choice using AsyncHTTPClient
+- [x] Implement a RecyclerView to display a list of entries from the API
+- [x] Display at least three (3) pieces of data for each RecyclerView item
 
 The following STRETCH features are implemented:
 
-- [ ] Add a UI element for the user to interact with API further
-- [ ] Show a `Toast` or `Snackbar` when an item is clicked
+- [] Add a UI element for the user to interact with API further
+- [x] Show a `Toast` or `Snackbar` when an item is clicked
 - [ ] Add item dividers with `DividerItemDecoration`
 
 The following EXTRA features are implemented:
@@ -38,7 +38,7 @@ Here's a video / GIF that demos all of the app's implemented features:
 
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
 
-GIF created with **your chosen GIF tool**
+GIF created with **Kap**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
@@ -47,7 +47,7 @@ GIF created with **your chosen GIF tool**
 
 ## Notes
 
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
+I learned recylerView this unit, this was the hardest project I have done so far
 
 ## License
 
