@@ -1,5 +1,6 @@
 package edu.iastate.shubham8.codepath_project6
 
+import PokemonAdapter
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log

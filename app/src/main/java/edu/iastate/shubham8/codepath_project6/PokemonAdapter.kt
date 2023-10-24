@@ -1,12 +1,13 @@
-package edu.iastate.shubham8.codepath_project6
-
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import edu.iastate.shubham8.codepath_project6.Pokemon
+import edu.iastate.shubham8.codepath_project6.R
 
 class PokemonAdapter(private val pokemonList: List<Pokemon>) :
     RecyclerView.Adapter<PokemonAdapter.ViewHolder>() {
@@ -15,6 +16,18 @@ class PokemonAdapter(private val pokemonList: List<Pokemon>) :
         val nameTextView: TextView = itemView.findViewById(R.id.nameTextView)
         val typeTextView: TextView = itemView.findViewById(R.id.typeTextView)
         val imageView: ImageView = itemView.findViewById(R.id.pokemonImageView)
+
+        init {
+            // Add a click listener to the item view
+            itemView.setOnClickListener {
+                val position = adapterPosition
+                if (position != RecyclerView.NO_POSITION) {
+                    val clickedPokemon = pokemonList[position]
+                    // Show a toast message with the Pokemon's name
+                    Toast.makeText(itemView.context, "Clicked: ${clickedPokemon.name}", Toast.LENGTH_SHORT).show()
+                }
+            }
+        }
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
