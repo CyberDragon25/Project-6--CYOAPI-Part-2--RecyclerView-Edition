@@ -10,7 +10,7 @@ Time spent: **5** hours spent in total
 
 **PokeDex** is an Android app that **An app that displays a scrollable list of characters from the Pokemon API**
 
-If I had to describe this project in three (3) emojis, they would be: **emojis here**
+If I had to describe this project in three (3) emojis, they would be: **:smiley: :relieved: :satisfied:**
 
 ## Application Features
 
@@ -36,7 +36,7 @@ The following EXTRA features are implemented:
 
 Here's a video / GIF that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+<img src='./And101P6.gif' title='Video Demo' width='' alt='Video Demo' />
 
 GIF created with **Kap**
 
